@@ -10,7 +10,7 @@
 
    <!--=============== REMIXICONS ===============-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
-
+   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
    <!--=============== CSS ===============-->
    <link rel="stylesheet" href="./css/styles.css">
 
@@ -77,7 +77,7 @@
 
             <div class="home__perfil">
                <div class="home__image">
-                  <img src="./assets/img/Img1.jpg" alt="image" class="home__img">
+                  <img src="./assets/img/profile1.png" alt="image" class="home__img">
                   <div class="home__shadow"></div>
                
                   <img src="./assets/img/curved-arrow.svg" alt="" class="home__arrow">
@@ -87,7 +87,7 @@
                </div>
 
                <div class="home__social">
-                  <a href="https://instagram.com/md_sajid_khan_.__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D " target="_blank" class="home__social-link">
+                  <a href="https://instagram.com/iemsajid_khan?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D " target="_blank" class="home__social-link">
                      <i class="ri-instagram-line"></i>
                   </a>
 
@@ -103,7 +103,8 @@
 
             <div class="home__info">
                <p class="home__description">
-                  <b class="role"></b>, with knowledge in web development and design, I offer the best projects resulting in quality work.
+                  I am a <b class="role"></b>
+                  <!-- with knowledge in web development and design, I offer the best projects resulting in quality work. -->
                </p>
 
                <a href="#about" class="home__scroll">
@@ -126,7 +127,7 @@
 
             <div class="about__perfil">
                <div class="about__image">
-                  <img src="./assets/img/Img3.jpg" alt="image" class="about__img">
+                  <img src="./assets/img/About.png" alt="image" class="about__img">
 
                   <div class="about__shadow"></div>
 
@@ -139,12 +140,27 @@
 
             <div class="about__info">
                <p class="about__description">
-                  Passionate about creating <b>Web Pages</b> with <b>UI/UX User Interface</b>, I have years of experience and many clients are happy with the projects carried out.
+                  <!-- , I have years of experience and many clients are happy with the projects carried out.
+                   -->
+                   Hello, I'm Sajid, a recent B.Tech in Computer Science graduate passionate about technology. I earned my B.Tech from <b>MAKAUT</b> in <b>2023</b>, building a strong foundation in computer science, programming, web development, data structures, algorithms, and more.
+                   <br><br>
+                   I'm eager to apply my skills and knowledge as a software developer or engineer, aiming to contribute, learn, and make a meaningful impact in a dynamic environment. Let's connect to explore how I can be a valuable addition to your team.
+                   <br><br>
+                   Please feel free to reach out if you have any other questions.
                </p>
 
                <ul class="about__list">
                   <li class="about__item">
-                     <b>My Skills Are:</b> HTML, CSS, JavaScript, React, Git & GitHub, Tailwind & Java.
+                    <b>My Skills Are:</b>  <!-- HTML, CSS, JavaScript, React, Git & GitHub, Tailwind & Java. -->
+                     <div class="services__icon">
+                        <i class="ri-html5-line"></i>
+                        <i class="ri-css3-fill"></i>
+                        <i class="ri-javascript-line"></i>
+                        <i class="ri-github-line"></i>
+                        <i class="ri-reactjs-line"></i>
+                        <iconify-icon class="skill-img" icon="skill-icons:tailwindcss-dark" ></iconify-icon>
+                        <iconify-icon class="skill-img" icon="fa6-brands:java" ></iconify-icon>
+                     </div>
                   </li>
                </ul>
 
@@ -168,6 +184,26 @@
          </h2>
 
          <div class="services__container container grid">
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-code-box-line"></i>
+                     <!-- <iconify-icon icon="icon-park-twotone:add-web" width="" height="33"></iconify-icon> -->
+                  </div>
+                  
+
+                  <h2 class="services__title">Development</h2>
+
+                  <p class="services__description">
+                     Custom web development tailored to your specifications, designed to provide a flawless user experience.
+                  </p>
+               </div>
+            </article>
+
             <article class="services__card">
                <div class="services__border"></div>
 
@@ -194,27 +230,10 @@
                      <i class="ri-code-box-line"></i>
                   </div>
 
-                  <h2 class="services__title">Development</h2>
+                  <h2 class="services__title">Coding</h2>
 
                   <p class="services__description">
-                     Custom web development tailored to your specifications, designed to provide a flawless user experience.
-                  </p>
-               </div>
-            </article>
-
-            <article class="services__card">
-               <div class="services__border"></div>
-
-               <div class="services__content">
-                  <div class="services__icon">
-                     <div class="services__box"></div>
-                     <i class="ri-smartphone-line"></i>
-                  </div>
-
-                  <h2 class="services__title">Mobile App</h2>
-
-                  <p class="services__description">
-                     Design and transform website projects into mobile apps to provide a seamless user experience.
+                     Craft clean and efficient code tailored to your project's needs, ensuring a seamless and robust user experience.
                   </p>
                </div>
             </article>
@@ -240,7 +259,7 @@
 
                <div class="projects__content">
                   <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="project__title">Food Ordering Website</h2>
+                  <h2 class="projects__title">Food Ordering Website</h2>
 
                   <p class="projects__description">
                      Access a user-friendly food ordering system with a responsive dashboard. Manage orders and explore menus conveniently on any device. Enhanced dining experience.
@@ -269,7 +288,7 @@
 
                <div class="projects__content">
                   <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="project__title">Responsive portfolio Website</h2>
+                  <h2 class="projects__title">Responsive portfolio Website</h2>
 
                   <p class="projects__description">
                      Experience my dynamic portfolio. Seamlessly responsive for desktop and mobile. Showcase of creative projects, highlighting skills and versatility.
@@ -287,8 +306,6 @@
                </div>
             </article>
 
-            
-
             <article class="projects__card">
                <div class="projects__image">
                   <img src="assets/img/project-4.jpg" alt="image" class="projects__img">
@@ -300,7 +317,7 @@
 
                <div class="projects__content">
                   <h3 class="projects__subtitle">Website</h3>
-                  <h2 class="project__title">Chat Application Backend</h2>
+                  <h2 class="projects__title">Chat Application Backend</h2>
 
                   <p class="projects__description">
                      Socket.io powers real-time chat without page reloads. Users create chat rooms for group discussions, promoting organized, uninterrupted conversations in this feature-rich application.
@@ -317,6 +334,65 @@
                   </a> -->
                </div>
             </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project-7.png" alt="image" class="projects__img">
+
+               <a href="https://designbasic.netlify.app/" class="projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Website</h3>
+                  <h2 class="projects__title">Basic Design I</h2>
+
+                  <p class="projects__description">
+                     Core principles of visual art and graphic design, emphasizing balance, contrast, alignment, and composition for effective visual communication.
+                  </p>
+               </div>
+
+               <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/FSJS/blob/master/Html%20and%20Css%20Assignments/Week%204/Project%201/index.html" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <!-- <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a> -->
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project-8.png" alt="image" class="projects__img">
+
+               <a href="https://designbasic2.netlify.app/" class="projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Website</h3>
+                  <h2 class="projects__title">Basic Design II</h2>
+
+                  <p class="projects__description">
+                     Versatile approach to design, tailored for diverse projects, ensuring flexibility, creativity, and effective problem-solving across various contexts.
+                  </p>
+               </div>
+
+               <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/FSJS/blob/master/Html%20and%20Css%20Assignments/Week%204/Project%202/index.html" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <!-- <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a> -->
+               </div>
+            </article>
+
 
             <!-- <article class="projects__card">
                <div class="projects__image">
@@ -376,6 +452,191 @@
                </div>
             </article> -->
       </section>
+
+      <!--==================== ARTICLE ====================-->
+      <section class="articles section" id="article">
+         <h2 class="section__title-1">
+            <span>Articles.</span>
+         </h2>
+
+         <div class="projects__container container grid">
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/js.png" alt="image" class="projects__img">
+
+               <a href="https://kodewisdom.hashnode.dev/javascript-introduction" class=" projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Blog</h3>
+                  <h2 class="projects__title">JavaScript Introduction</h2>
+                  <br>
+                  <p class="projects__description">
+                     JavaScript is a versatile, widely-used scripting language for web development, enabling interactive and dynamic content on websites.
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/fooddeliveryapp" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>-->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/array.png" alt="image" class="projects__img">
+
+               <a href="https://kodewisdom.hashnode.dev/arrays-in-javascript" class=" projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Blog</h3>
+                  <h2 class="projects__title">Arrays in JavaScript</h2>
+                  <br>
+                  <p class="projects__description">
+                     Arrays in JavaScript are versatile, ordered collections of data elements that can include various types, often used for storing and manipulating data.
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/fooddeliveryapp" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>-->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/boxing.png" alt="image" class="projects__img">
+
+               <a href="https://kodewisdom.hashnode.dev/javascript-boxing-wrappers" class=" projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Blog</h3>
+                  <h2 class="projects__title">JavaScript Boxing Wrappers</h2>
+                  <br>
+                  <p class="projects__description">
+                     JavaScript boxing wrappers convert primitive data types into objects temporarily to enable the use of object methods and properties.
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/fooddeliveryapp" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>-->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/css.png" alt="image" class="projects__img">
+
+               <a href="https://kodewisdom.hashnode.dev/position-in-css" class=" projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Blog</h3>
+                  <h2 class="projects__title">Position in CSS</h2>
+                  <br>
+                  <p class="projects__description">
+                     In CSS, "position" determines how an element is placed within its containing element. It has values like "static," "relative," "absolute," and "fixed" for different layout behaviors.
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/fooddeliveryapp" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>-->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/flex.png" alt="image" class="projects__img">
+
+               <a href="https://kodewisdom.hashnode.dev/flexbox-in-css" class=" projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Blog</h3>
+                  <h2 class="projects__title">Flexbox in CSS</h2>
+                  <br>
+                  <p class="projects__description">
+                     Flexbox, or the Flexible Box Layout, is a CSS layout model that simplifies the design and alignment of elements in a flexible and responsive way within a container.
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/fooddeliveryapp" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>-->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/selector.png" alt="image" class="projects__img">
+
+               <a href="https://kodewisdom.hashnode.dev/css-selectors-and-pseudo-elements" class=" projects__button button">
+                  <i class="ri-arrow-right-up-line"></i>
+               </a>
+               </div>
+
+               <div class="projects__content">
+                  <h3 class="projects__subtitle">Blog</h3>
+                  <h2 class="projects__title">CSS Selectors and Pseudo-elements</h2>
+                  <br>
+                  <p class="projects__description">
+                     JCSS selectors and pseudo-elements are tools used to target and style specific HTML elements. Selectors identify elements, while pseudo-elements target specific parts of an element (e.g., ::before or ::after) for styling.
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                  <a href="https://github.com/kodewizdom/fooddeliveryapp" target="_blank" class="projects__link">
+                     <i class="ri-github-line"></i> View
+                  </a>
+
+                  <a href="" target="_blank" class="projects__link">
+                     <i class="ri-dribbble-line"></i> View
+                  </a>
+               </div>-->
+            </article>
+            
+      </section>
+
 
       <!--==================== CONTACT ====================-->
       <section class="contact section" id="contact">
@@ -451,7 +712,7 @@
                         <i class="ri-facebook-circle-line"></i>
                      </a>
 
-                     <a href="https://instagram.com/md_sajid_khan_.__?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D " target="_blank" class="contact__social-link">
+                     <a href="https://instagram.com/iemsajid_khan?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D " target="_blank" class="contact__social-link">
                         <i class="ri-instagram-line"></i>
                      </a>
 

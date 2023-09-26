@@ -2,10 +2,10 @@
 
     var typeData = new Typed(".role", {
       strings: [
-        "Full Stack Developer",
-        "UI-UX Designer",
-        "Backend Developer",
         "Coder",
+        "Frontend Developer",
+        "Backend Developer",
+        // "UI-UX Designer",
       ],
       loop: true,
       typeSpeed: 100,
